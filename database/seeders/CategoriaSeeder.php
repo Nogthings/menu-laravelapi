@@ -16,42 +16,42 @@ class CategoriaSeeder extends Seeder
     {
         DB::table('categorias')->insert([
             'nombre' => 'Café',
-            'icono' => 'cafe',
+            'icono' => 'cafe.jpg',
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now(),
         ]);
         
         DB::table('categorias')->insert([
             'nombre' => 'Hamburguesas',
-            'icono' => 'hamburguesa',
+            'icono' => 'hamburguesa.jpg',
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now(),
         ]);
         
         DB::table('categorias')->insert([
             'nombre' => 'Pizzas',
-            'icono' => 'pizza',
+            'icono' => 'pizza.jpg',
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now(),
         ]);
         
         DB::table('categorias')->insert([
             'nombre' => 'Donas',
-            'icono' => 'dona',
+            'icono' => 'dona.jpg',
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now(),
         ]);
         
         DB::table('categorias')->insert([
             'nombre' => 'Pasteles',
-            'icono' => 'pastel',
+            'icono' => 'pastel.jpg',
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now(),
         ]);
         
         DB::table('categorias')->insert([
             'nombre' => 'Galletas',
-            'icono' => 'galletas',
+            'icono' => 'galletas.jpg',
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now(),
         ]);
